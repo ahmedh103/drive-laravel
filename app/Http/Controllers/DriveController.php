@@ -29,7 +29,8 @@ class DriveController extends Controller
     public function store(Request $request)
     {
 
-        if(auth()->user()->role==1){
+        // if(auth()->user()->role==1)
+        {
 $request ->validate([
 "title"=>"required|min:3|max:20",
 "description"=>"required|min:5|max:50",

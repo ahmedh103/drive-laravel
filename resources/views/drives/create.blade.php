@@ -2,7 +2,7 @@
 
 @section('content')
 
- @if (Auth::user()->role ==1)
+ {{-- @if (Auth::user()->role ==1) --}}
      
 
 <h1 class="text-center text-info">create Drives  </h1>
@@ -50,4 +50,4 @@
     
 @endsection
 
-@endif
+{{-- @endif --}}
